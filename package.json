@@ -1,0 +1,21 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "myVue-cli": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^10.1.8",
+    "ora": "^8.0.1"
+  }
+}
